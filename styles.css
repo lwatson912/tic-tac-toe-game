@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.board {
+    display: grid;
+    width: 33as0px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.squares {
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 15%;
+}
